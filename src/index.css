@@ -1,13 +1,67 @@
+.areaBase {
+  box-sizing: border-box;
+  background-color: gray;
+  padding: 10px 15px;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+h2 {
+  margin-top: 0px;
+  color: #707070;
+  font-size: 18px;
+  text-align: center;
+}
+.inputArea {
+  background-color: #c1fdff;
+}
+.inputArea input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px 4px 10px;
+  color: gray;
+}
+button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 3px 10px;
+}
+button:hover {
+  background-color: #ff81fe;
+  color: white;
+}
+.inCompleteArea {
+  background-color: #c8ffe3;
+}
+.completeArea {
+  background-color: #fffee0;
+}
+.incompleteList li,
+.completeList li {
+  margin-top: 10px;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./img/2013-03-18 11.27.22.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.all {
+  padding: 10px;
+}
+.upTodo {
+  width: 400px;
+  margin: 0 auto;
+  background-color: red;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
